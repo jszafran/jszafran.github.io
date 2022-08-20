@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>jszafran.dev</title>
+    <link>http://foo.com/</link>
+    <description>Recent content on jszafran.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2022 10:43:41 +0200</lastBuildDate><atom:link href="http://foo.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foo</title>
+      <link>http://foo.com/posts/foo/</link>
+      <pubDate>Mon, 15 Aug 2022 10:43:41 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/foo/</guid>
+      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product2/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product2/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product3/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product3/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product4/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product4/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product5/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product5/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product6/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product6/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product7/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product7/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+    <item>
+      <title>Carthesian Product</title>
+      <link>http://foo.com/posts/carthesian-product8/</link>
+      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
+      
+      <guid>http://foo.com/posts/carthesian-product8/</guid>
+      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
+[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
+calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+    </item>
+    
+  </channel>
+</rss>
