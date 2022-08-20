@@ -2,41 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://foo.com/posts/foo/</loc>
-    <lastmod>2022-08-15T10:43:41+02:00</lastmod>
+    <loc>https://jszafran.github.io/categories/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/</loc>
-    <lastmod>2022-08-15T10:43:41+02:00</lastmod>
+    <loc>https://jszafran.github.io/tags/django/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/</loc>
-    <lastmod>2022-08-15T10:43:41+02:00</lastmod>
+    <loc>https://jszafran.github.io/categories/django/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
+    <loc>https://jszafran.github.io/posts/django-grouping-extract-iso-year/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product2/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
+    <loc>https://jszafran.github.io/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product3/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
+    <loc>https://jszafran.github.io/posts/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product4/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
+    <loc>https://jszafran.github.io/tags/python/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product5/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
+    <loc>https://jszafran.github.io/tags/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product6/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
+    <loc>https://jszafran.github.io/tags/web-development/</loc>
+    <lastmod>2022-08-15T10:09:55+02:00</lastmod>
   </url><url>
-    <loc>http://foo.com/posts/carthesian-product7/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
-  </url><url>
-    <loc>http://foo.com/posts/carthesian-product8/</loc>
-    <lastmod>2022-08-15T10:39:58+02:00</lastmod>
-  </url><url>
-    <loc>http://foo.com/categories/</loc>
-  </url><url>
-    <loc>http://foo.com/tags/</loc>
+    <loc>https://jszafran.github.io/series/</loc>
   </url>
 </urlset>

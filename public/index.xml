@@ -1,107 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>jszafran.dev</title>
-    <link>http://foo.com/</link>
-    <description>Recent content on jszafran.dev</description>
+    <title>jszafran.github.io</title>
+    <link>https://jszafran.github.io/</link>
+    <description>Recent content on jszafran.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 10:43:41 +0200</lastBuildDate><atom:link href="http://foo.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 10:09:55 +0200</lastBuildDate><atom:link href="https://jszafran.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Foo</title>
-      <link>http://foo.com/posts/foo/</link>
-      <pubDate>Mon, 15 Aug 2022 10:43:41 +0200</pubDate>
+      <title>Django &amp; grouping by year of the week</title>
+      <link>https://jszafran.github.io/posts/django-grouping-extract-iso-year/</link>
+      <pubDate>Mon, 15 Aug 2022 10:09:55 +0200</pubDate>
       
-      <guid>http://foo.com/posts/foo/</guid>
-      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product2/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product2/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product3/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product3/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product4/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product4/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product5/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product5/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product6/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product6/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product7/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product7/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
-    </item>
-    
-    <item>
-      <title>Carthesian Product</title>
-      <link>http://foo.com/posts/carthesian-product8/</link>
-      <pubDate>Mon, 15 Aug 2022 10:39:58 +0200</pubDate>
-      
-      <guid>http://foo.com/posts/carthesian-product8/</guid>
-      <description>I recently worked on some side project that was using pandas dataframe with 2-level multiindexed columns. They could be represented as list of tuples, for example:
-[(&amp;#34;calendar&amp;#34;, &amp;#34;year&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;month&amp;#34;), (&amp;#34;calendar&amp;#34;, &amp;#34;day&amp;#34;)] Dataframe with such index would look like this - calendar being the upper level and year, month, day on the lower level.
-calendar year month day 0 2019 2 1 1 2019 3 10 In order to create such multiindex, I needed to generate carthesian product of calendar and year, month, day.</description>
+      <guid>https://jszafran.github.io/posts/django-grouping-extract-iso-year/</guid>
+      <description>I&amp;rsquo;ve been recently working on a task at my job that involved debugging some aggregated calculations in Django (group by year of the week - i.e. 2022 Week 1, 2022 Week 2, 2022 Week 3 and so on - according to ISO week date definition). I&amp;rsquo;d like to share with you what I&amp;rsquo;ve learnt from this task.
+TL;DR - Use ExtractIsoYear function instead of ExtractYear when defining a year according to ISO-8601.</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been recently working on a task at my job that involved debugging some aggregated calculations in Django (group by year of the week - i.e. 2022 Week 1, 2022 Week 2, 2022 Week 3 and so on - according to <a href="https://en.wikipedia.org/wiki/ISO_week_date">ISO week date definition</a>). I&rsquo;d like to share with you what I&rsquo;ve learnt from this task.</p>
+<p><strong>TL;DR</strong> - Use <code>ExtractIsoYear</code> function instead of <code>ExtractYear</code> when defining a year according to ISO-8601.</p>
+<h2 id="data-model">Data model</h2>
+<p>Let&rsquo;s introduce a simple model that I&rsquo;ll using throughout this post - <code>Donation</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Donation</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">amount</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span><span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">max_digits</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">created_at</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DateTimeField</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">created_at</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">amount</span><span class="si">}</span><span class="s2">$&#34;</span></span></span></code></pre></div>
+<p>Let&rsquo;s say that I&rsquo;d like to perform some kind of aggregation per year of the week - for example I&rsquo;m trying to answer a question like <code>I'd like to know how many donations were made in each week of the year</code>.</p>
+<p><code>created_at</code> field defines creation timestamp for a donation and I&rsquo;ll use it for further calculations.</p>
+<p>Creating some exemplary objects:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="n">Decimal</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pytz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">someapp.models</span> <span class="kn">import</span> <span class="n">Donation</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">&#34;5.00&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">created_at</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">pytz</span><span class="o">.</span><span class="n">UTC</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">&#34;2.00&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">created_at</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">pytz</span><span class="o">.</span><span class="n">UTC</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">&#34;3.25&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">created_at</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">pytz</span><span class="o">.</span><span class="n">UTC</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">&#34;14.00&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">created_at</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">pytz</span><span class="o">.</span><span class="n">UTC</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">&#34;14.00&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">created_at</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="mi">00</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">pytz</span><span class="o">.</span><span class="n">UTC</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span></span></span></code></pre></div></p>
+<h2 id="extracting-week--year-from-timestamp">Extracting week &amp; year from timestamp</h2>
+<p>To do the aggregation, I&rsquo;ll need to derive week &amp; year from the <code>created_at</code> field. Quick peek at <code>django.db.models.functions</code> module and <code>ExtractWeek</code> &amp; <code>ExtractYear</code> functions look like a good candidates for a job. Annotation would look like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">django.db.models.functions</span> <span class="kn">import</span> <span class="n">ExtractWeek</span><span class="p">,</span> <span class="n">ExtractYear</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">year</span><span class="o">=</span><span class="n">ExtractYear</span><span class="p">(</span><span class="s2">&#34;created_at&#34;</span><span class="p">),</span> <span class="n">week</span><span class="o">=</span><span class="n">ExtractWeek</span><span class="p">(</span><span class="s2">&#34;created_at&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span></span></span></code></pre></div>
+<p>But when you take a deeper look at aggregations, you&rsquo;ll notice something&rsquo;s wrong:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">year</span><span class="o">=</span><span class="n">ExtractYear</span><span class="p">(</span><span class="s2">&#34;created_at&#34;</span><span class="p">),</span> <span class="n">week</span><span class="o">=</span><span class="n">ExtractWeek</span><span class="p">(</span><span class="s2">&#34;created_at&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="s2">&#34;year&#34;</span><span class="p">,</span> <span class="s2">&#34;week&#34;</span><span class="p">)</span><span class="o">.</span><span class="n">distinct</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># above expression returns</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">QuerySet</span> <span class="p">[{</span><span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2021</span><span class="p">,</span> <span class="s1">&#39;week&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2021</span><span class="p">,</span> <span class="s1">&#39;week&#39;</span><span class="p">:</span> <span class="mi">53</span><span class="p">}]</span><span class="o">&gt;</span></span></span></code></pre></div></p>
+<p>Year 2021 &amp; week 53 seems like a future considering that max datetime of donation is January 5th, 2021. Why is that happening?</p>
+<h2 id="extractisoyear">ExtractIsoYear</h2>
+<p>Turns out that, according to ISO-8601 definition, dates <code>2021-01-01</code>, <code>2021-01-02</code>, <code>2021-01-03</code> belong to the last week of <strong>2020</strong> (week number 53). <code>ExtractWeek</code> utilize the same ISO definition, while <code>ExtractYear</code> returns exact year from given timestamp.</p>
+<p>To fix this mismatch, we&rsquo;ll need to use <code>ExtractIsoYear</code> function from <code>django.db.models.functions</code> module:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">django.db.models.functions</span> <span class="kn">import</span> <span class="n">ExtractWeek</span><span class="p">,</span> <span class="n">ExtractIsoYear</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Donation</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">year</span><span class="o">=</span><span class="n">ExtractIsoYear</span><span class="p">(</span><span class="s2">&#34;created_at&#34;</span><span class="p">),</span> <span class="n">week</span><span class="o">=</span><span class="n">ExtractWeek</span><span class="p">(</span><span class="s2">&#34;created_at&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="s2">&#34;year&#34;</span><span class="p">,</span> <span class="s2">&#34;week&#34;</span><span class="p">)</span><span class="o">.</span><span class="n">distinct</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># result</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">QuerySet</span> <span class="p">[{</span><span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2020</span><span class="p">,</span> <span class="s1">&#39;week&#39;</span><span class="p">:</span> <span class="mi">53</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2021</span><span class="p">,</span> <span class="s1">&#39;week&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">}]</span><span class="o">&gt;</span></span></span></code></pre></div>
+<p>Week 53 of 2020 and week 1 of 2021 is a correct result.</p>
+<p>Hope this short post will help you to avoid some bugs in the future,<!-- raw HTML omitted --></p>
+<p>Best Regards,</p>
+<p>Kuba</p>
+]]></content:encoded>
     </item>
     
   </channel>

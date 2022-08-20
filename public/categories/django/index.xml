@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on jszafran.github.io</title>
-    <link>https://jszafran.github.io/posts/</link>
-    <description>Recent content in Posts on jszafran.github.io</description>
+    <title>django on jszafran.github.io</title>
+    <link>https://jszafran.github.io/categories/django/</link>
+    <description>Recent content in django on jszafran.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Aug 2022 10:09:55 +0200</lastBuildDate><atom:link href="https://jszafran.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 10:09:55 +0200</lastBuildDate><atom:link href="https://jszafran.github.io/categories/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django &amp; grouping by year of the week</title>
       <link>https://jszafran.github.io/posts/django-grouping-extract-iso-year/</link>
